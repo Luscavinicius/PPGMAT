@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta|Noto+Sans|Poppins|Roboto');
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+/* ----- HEADER -----*/
+.imgs {
+  text-align: center;
+}
+
+.header-imgs {
+  margin-top: 2px;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+#logo {
+  padding-right: 70px;
+  max-width: 310px;
+  max-height: 270px;
+  width: auto;
+  height: auto;
+
+}
+
+#banner {
+  max-width: 420px;
+  max-height: 290px;
+  width: auto;
+  height: auto;
+  right: -55px;
+  position: relative;
+}
+
+#nav-list {
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav-items {
+  margin-bottom: 45px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: inline-block;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #709BDB;
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  transition-duration: 0.28s;
+}
+
+.nav-link:hover{
+  color: #77A1A3;
+}
+
+.sections {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+}
+
+.section-img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 8px;
+  object-position: 50% 50%;
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  display: inline-block;
+  vertical-align: middle;
+  transition-duration: 0.28s;
+}
+
+.section-img:hover{
+  opacity: 0.78;
+  cursor: pointer;
+}
+
+.info-container {
+  margin-right: 70px;
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.section-h{
+  color: #709BDB;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.section-p{
+  margin: 0;
+  padding: 0;
+  font-size: 13.5px;
+  text-align: justify;
+}
+
+.btn {
+  -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(217, 74, 86, 1);
+    width: 100px;
+    height: 20px;
+    font-size: 17px;
+    margin-top: 20px;
+    padding: 5px 5px 10px 5px;
+    float: right;
+    position: relative;
+    transition-duration: 0.28s;
+}
+
+.btn:hover {
+  background-color: rgba(217, 74, 86, 0.78);
+}
+
+.line-container {
+  text-align: center;
+}
+
+.line {
+  margin-top: 35px;
+  background: gray;
+  height: 1px;
+  width: 600px;
+  display: inline-block;
+}
